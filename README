@@ -1,0 +1,37 @@
+# ----------------------------------------------------
+# Name: Zong Lin Yu
+# 
+# Course: CMPUT 274
+# Assignment: Weekly Exercise 4 -- Text Preprocessing
+# ----------------------------------------------------
+
+
+Overview:
+- This program takes in a string of text and strips it 
+of punctuation, unnecessary digits, and certain stop words.
+
+
+Included files:
+- preprocess.py
+- README
+
+
+Instructions for usage:
+- In the terminal, type: `python3 preprocess.py [option] [option] ... [option]`
+	- The [option] blocks include "keep-digits", "keep-stops", "keep-symbols".
+	You can learn more about the [option] arguments in the section below.
+	- You can use multiple arguments or no arguments at all, 
+	however, you must from the three shown above. Incorrect spellings of arguments
+	will not work.
+- Enter a string of words
+- The program will output the processed string through stdout.
+
+
+[option] arguments:
+- keep-digits: 
+	- keeps all the digits in the string by bypassing the function that removes numbers
+- keep-symbols:
+	- Keeps all the symbols and punctuation by bypassing the function that removes
+	punctuation
+- keep-stops:
+	- Keeps all stop words by bypassing the function that removes stop words
